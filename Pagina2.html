@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Semántico con Cuadros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        aside {
+            background-color: lightcoral;
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        article {
+            background-color: lightgreen;
+            width: 55%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        section {
+            background-color: lightyellow;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado del documento -->
+    <header>
+        <h1>Encabezado (Header)</h1>
+        <p>Cuadro semántico representado en color **lightblue**.</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <h2>Navegación (Nav)</h2>
+        <p>Cuadro de navegación representado en color **lightgray**.</p>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Barra lateral izquierda -->
+        <aside>
+            <h2>Barra Lateral Izquierda (Aside)</h2>
+            <p>Cuadro de barra lateral en color **lightcoral**.</p>
+        </aside>
+
+        <!-- Artículo principal -->
+        <article>
+            <section>
+                <h2>Sección 1 (Section)</h2>
+                <p>Cuadro de sección 1 representado en color **lightyellow**.</p>
+            </section>
+            <section>
+                <h2>Sección 2 (Section)</h2>
+                <p>Cuadro de sección 2 representado en color **lightyellow**.</p>
+            </section>
+        </article>
+
+        <!-- Barra lateral derecha -->
+        <aside>
+            <h2>Barra Lateral Derecha (Aside)</h2>
+            <p>Cuadro de barra lateral en color **lightcoral**.</p>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <h2>Pie de página (Footer)</h2>
+        <p>Cuadro del pie de página representado en color **lightblue**.</p>
+    </footer>
+</body>
+</html>
